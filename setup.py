@@ -10,8 +10,9 @@ setup(
     author_email='dmd@lurklurk.org',
     url='https://github.com/daviddrysdale/python-phonenumbers',
     license='Apache License 2.0',
-    #packages=['phonenumbers', 'phonenumbers.data', 'phonenumbers.geodata'],
-    packages=find_packages(),
+    package_dir = {'': 'python'},
+    packages=['phonenumbers', 'phonenumbers.data', 'phonenumbers.geodata'],
+    #packages=find_packages(),
     test_suite="tests",
     platforms='Posix; MacOS X; Windows',
     classifiers=[
