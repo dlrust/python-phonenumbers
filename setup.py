@@ -12,7 +12,6 @@ setup(
     license='Apache License 2.0',
     package_dir = {'': 'python'},
     packages=['phonenumbers', 'phonenumbers.data', 'phonenumbers.geodata'],
-    #packages=find_packages(),
     test_suite="tests",
     platforms='Posix; MacOS X; Windows',
     classifiers=[
