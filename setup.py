@@ -14,7 +14,8 @@ setup(
     packages=find_packages(),
     test_suite="tests",
     platforms='Posix; MacOS X; Windows',
-    classifiers=[dev_status,
+    classifiers=[
+        'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: Apache Software License',
         'Operating System :: OS Independent',
